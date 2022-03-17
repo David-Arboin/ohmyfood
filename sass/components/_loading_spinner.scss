@@ -1,0 +1,24 @@
+#loading_Spinner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.466);
+    visibility: hidden;
+    transition:visibility 2s;
+}
+.loading {
+    display: flex;
+}
+.loading::after {
+    content: "";
+    width: 8vw;
+    height: 8vw;
+    border: 10px solid $color-background-elements;
+    border-top-color: $color-primary;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+}
