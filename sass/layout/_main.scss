@@ -24,6 +24,17 @@ main h1
 {
     z-index: 1;
     position: relative;
+    background-color: rgb(221, 220, 220);
+    flex-direction: row;
+    align-items: center;
+}
+.backgroung_icone_texte_fonctioning:hover > i
+{
+    color: #9356DC;
+}
+.backgroung_icone_texte_fonctioning:hover
+{
+    background-color: #e4ddee;
 }
 main i
 {
