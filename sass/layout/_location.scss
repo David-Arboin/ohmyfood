@@ -1,0 +1,30 @@
+#location
+{
+    width: 100%;
+    justify-content: center;
+    aspect-ratio: 41/4;
+    background-color: rgb(179, 177, 177);
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+#location h5
+{
+    margin-left: 20px;
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+}
+#location i
+{
+    color: black;
+    margin-left: -7%;
+}
+i
+{
+    color: grey;
+    font-size: 5vw;
+}
+a
+{
+    display: flex;
+}
