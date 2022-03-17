@@ -22,3 +22,4 @@ Fonts : Shrikhand et Roboto
 Utilisation de sass :
 1 fichier main.scss mène aux fichiers de styles séparés :
 _variables.scss
+_extensions.scss
