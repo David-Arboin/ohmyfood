@@ -1,0 +1,440 @@
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('../fonts/Shrikhand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+body
+{
+    margin: 0;
+}
+
+
+/*Largeur des éléments de la page*/
+a
+{
+    text-decoration: none;
+}
+header, figure, #menu, #subtitle_Price, footer
+{
+    width: 100%;
+}
+figure img
+{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+section
+{
+    width: 92.72%;
+    margin-left: 3.636%;
+}
+header, #menu ,section, #title_Menu, #background_elements_menu, #title_informations, #subtitle_Prix, #position_Button_Commander, #element_menu ,#subtitle_Price ,#validate ,footer
+{
+    display: flex;
+}
+#element_menu
+{
+    background-color: #e4ddee;
+    overflow: hidden;
+    border-radius: 4vw;
+    margin-top: 5%;
+}
+#element_menu:hover > #background_elements_menu
+{
+    margin-right: 0%;
+    transition: 0.3s ease-in;
+}
+#background_elements_menu
+{
+    width: 200%;
+    margin-right: -25%;
+}
+#element_menu:checked > #background_elements_menu
+{
+    margin-right: 0%;
+}
+#title_informations
+{
+    width: 90%;
+    height: 100%;
+}
+#element_menu
+{
+    width: 100%;
+    aspect-ratio: 51/10;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation: taadaa 1s;
+}
+@keyframes taadaa 
+{ 
+    from {transform: translate(0px, 40%);animation-timing-function:ease-in-out}
+    to {transform: translate(0px, 0px);animation-timing-function:ease-in-out}
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+header
+{
+    flex-direction: row;
+    align-items: center;
+}
+#menu
+{
+    padding-inline-start: 0;
+    margin-block-end: 0;
+}
+#menu, section, #title_informations, footer
+{
+    flex-direction: column;
+}
+#location, #position_Boutton_Commander, #validate ,#position_Button_Commander
+{
+    justify-content: center;
+}
+header, #menu, #title_informations
+{
+    justify-content: flex-start;
+}
+#title_Menu, #subtitle_Prix
+{
+    justify-content: space-between;
+}
+#title_Menu, #subtitle_Prix
+{
+    align-items: baseline;
+}
+#subtitle_Price
+{
+    justify-content: space-between;
+    height: 50%;
+}
+#validate, #subtitle_Price
+{
+    align-items: center;
+}
+#validate
+{
+    width: 17.6%;
+}
+/*Style des ohmyfood*/
+header img
+{
+    text-align: center;
+    width: 43.9%;
+    stroke: #a742c6;
+    fill: #a742c6;
+}
+footer img
+{
+    margin-top: 5%;
+    margin-left: 7.32%;
+    width: 30%;
+}
+svg
+{
+    color: #9356DC;
+}
+/*Position et style de la flèche vers la gauche dand le header*/
+header a
+{
+    margin-left: 5%;
+    color: black;
+    font-size: 5vw;
+}
+header img
+{
+    margin-left: 18%;
+}
+/*Proportions des éléments*/
+header
+{
+    aspect-ratio: 41/6;
+}
+figure
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+figure img
+{
+    aspect-ratio: 55/38;
+    object-fit: cover;
+}
+section
+{
+    aspect-ratio: 51/48;
+}
+/*Couleur des background*/
+#menu
+{
+    background-color: #e6e6e6;
+}
+#title_Menu mark
+{
+    background-color: #e6e6e6;
+}
+#background_elements_menu
+{
+    background-color: white;
+}
+footer
+{
+    background-color: #353535;
+}
+#backgroung_Number_etape_fonctioning
+{
+    background-color: #9356DC;
+}
+/*Bordures arrondies*/
+#backgroung_icone_texte_fonctioning
+{
+    border-radius: 20px;
+}
+#background_elements_menu
+{
+    border-radius: 4vw;
+}
+#validate
+{
+    background-color: #99E2D0;
+}
+.fa-check
+{
+    background-color: #f6f6f6;
+    width: 40%;
+    aspect-ratio: 1/1;
+    border-radius: 3vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6vw !important;
+    font-size: 3vw;
+    color: #99E2D0;
+}
+/*Style au survol*/
+#backgroung_icone_texte_fonctioning:hover > i
+{
+    color: #9356DC;
+}
+#backgroung_icone_texte_fonctioning:hover
+{
+    background-color: #e4ddee;
+}
+.fa-heart
+{
+    transition: color 1s ease-in-out;
+}
+.fa-heart:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+#element_menu:hover > #background_elements_menu > #validate > .fa-check
+{
+    transform: rotate(360deg);
+    animation-delay: 0.3s;
+    transition: transform 0.7s ease-in-out;
+}
+/*Style de la partie menu*/
+#menu
+{
+    border-radius: 30px 30px 0 0;
+    margin-top: -60px;
+    z-index: 2;
+    position: relative;
+}
+#title_Menu p
+{
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+/*Style de la partie section*/
+section
+{
+    margin-bottom: 15%;
+}
+#menu h1
+{
+    margin-block-end: 0px;
+    margin-left: 5%;
+    line-height: 150%;
+    color: #333;
+    text-decoration: none;
+    background: linear-gradient(#99E2D0, #99E2D0) no-repeat left bottom;
+    background-size: 17% 4px;
+}
+section h2, section h3
+{
+    margin-left: 4vw;
+}
+section h3
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+section h4
+{
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-block-end: 0;
+    margin-right: 8%;
+    margin-block-start: 0;
+    padding-top: 0;
+}
+#prix
+{
+    margin-right: 5%;
+}
+section i
+{
+    color: black;
+}
+section p
+{
+    margin-right: 10%;
+}
+#position_Boutton_Commander
+{
+    margin-left: 25.45%;
+}
+/*Style des textes*/
+#title_Menu
+{
+    font-family: 'Shrikhand';
+    font-size: 6vw;
+    margin-left: 3.6%;
+}
+mark
+{
+    font-family: 'Shrikhand';
+}
+h1, h2, h3, h4, h5
+{
+    font-family: 'Roboto';
+}
+h1
+{
+    font-size: 6vw;
+    font-weight: bolder;
+}
+h2
+{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    margin-block-end: 0px;
+}
+h3
+{
+    font-size: 4vw;
+    font-weight: lighter;
+    color: black;
+}
+h4
+{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+h5
+{
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+/*Style du footer*/
+h6
+{
+    font-family: 'Shrikhand';
+    color: white;
+    font-size: 5vw;
+    margin-left: 7.32%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-block-start: 0;
+    margin-block-end: 4%;
+    font-weight: lighter;
+}
+footer
+{
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+footer i
+{
+    color: white;
+}
+.fa-utensils, .fa-hands-helping
+{
+    margin-right: 5%;
+}
+.fa-hands-helping
+{
+    font-size: 3.5vw;
+}
+footer h3
+{
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+}
+footer a
+{
+    margin-left: 7.32%;
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-decoration: none;
+}
+/*Style des bouttons*/
+#position_Button_Commander
+{
+    width: 100%;
+    margin-bottom: 20%;
+}
+#menu a
+{
+    background: linear-gradient(180deg, #FF79DA 1%, #9356DC);
+    color: white;
+    border-radius: 10vw;
+    width: 55%;
+    aspect-ratio: 27/7;
+    box-shadow: 2px 9px 15px -7px rgba(0,0,0,0.75);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300%;
+    font-family: 'Roboto';
+    font-size: 5vw;
+    text-decoration: none;
+}
+#menu a:hover
+{
+    background: linear-gradient(180deg, #ff93e0 1%, #8c57ce);
+    box-shadow: 2px 9px 20px -2px rgba(0,0,0,0.75);
+}

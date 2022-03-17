@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('../fonts/Shrikhand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+body
+{
+    margin: 0;
+}
+/*Loading spinner*/
+#loading_Spinner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.466);
+    visibility: hidden;
+    transition:visibility 2s;
+}
+.loading {
+    display: flex;
+}
+.loading::after {
+    content: "";
+    width: 8vw;
+    height: 8vw;
+    border: 10px solid #dddddd;
+    border-top-color: #a742c6;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+}
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
+}
+/*Largeur des éléments de la page*/
+header, #location, #introduction, section, .functioning, .informations_footer_restaurant, footer
+{
+    width: 100%;
+}
+.informations_footer_restaurant
+{
+    height: auto;
+}
+.informations
+{
+    width: 80%;
+    aspect-ratio: 36/8;
+}
+main, section a
+{
+    width: 85.36%;
+}
+/*Agencement des éléments de la page*/
+header, #location, #introduction, section, section a, .informations_footer_restaurant, .informations, footer, .backgroung_icone_texte_fonctioning
+{
+    display: flex;
+}
+#location, .informations_footer_restaurant, .backgroung_icone_texte_fonctioning
+{
+    flex-direction: row;
+    align-items: center;
+}
+#introduction, section, section a, .informations, footer
+{
+    flex-direction: column;
+}
+header, #location, #introduction
+{
+    justify-content: center;
+}
+#introduction
+{
+    align-items: center;
+}
+main
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 7.32%;
+}
+#location h5
+{
+    margin-left: 20px;
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+}
+#introduction h1
+{
+    width: 70%;
+    text-align: center;
+    margin-block-start: -5%;
+}
+#introduction h3
+{
+    width: 90%;
+    text-align: center;
+    margin-block-start: -1%;
+    margin-bottom: 8%;
+}
+.informations_footer_restaurant
+{
+    justify-content: space-between;
+}
+/*Style des ohmyfood*/
+header img
+{
+    text-align: center;
+    width: 43.9%;
+    stroke: #a742c6;
+    fill: #a742c6;
+}
+footer img
+{
+    margin-top: 5%;
+    margin-left: 7.32%;
+    width: 30%;
+}
+svg
+{
+    color: #9356DC;
+}
+/*Proportions des éléments*/
+header
+{
+    aspect-ratio: 41/6;
+}
+#location
+{
+    aspect-ratio: 41/4;
+}
+#information
+{
+    aspect-ratio: 41/30.5;
+}
+#introduction
+{
+    aspect-ratio: 41/30.5;
+}
+.functioning
+{
+    aspect-ratio: 35/8;
+}
+section
+{
+    aspect-ratio: 41/134;
+}
+section a
+{
+    aspect-ratio: 36/27;
+}
+footer
+{
+    aspect-ratio: 41/22;
+}
+/*Couleur des background*/
+#location
+{
+    background-color: rgb(179, 177, 177);
+}
+#introduction, .backgroung_icone_texte_fonctioning, section
+{
+    background-color: rgb(221, 220, 220);
+}
+section a
+{
+    background-color: white;
+}
+footer
+{
+    background-color: #353535;
+}
+.backgroung_Number_etape_fonctioning
+{
+    background-color: #9356DC;
+}
+/*Bordures arrondies*/
+.backgroung_icone_texte_fonctioning
+{
+    border-radius: 20px;
+}
+/*Style au survol*/
+.backgroung_icone_texte_fonctioning:hover > i
+{
+    color: #9356DC;
+}
+.backgroung_icone_texte_fonctioning:hover
+{
+    background-color: #e4ddee;
+}
+.fa-heart
+{
+    transition: color 1s ease-in;
+}
+.fa-heart:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+/*Style de la partie main*/
+
+.backgroung_Number_etape_fonctioning
+{
+    width: 5vw;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    margin-bottom: -15%;
+    margin-left: -2.5%;
+    z-index: 2;
+    position: relative;
+}
+main h1
+{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.backgroung_icone_texte_fonctioning
+{
+    z-index: 1;
+    position: relative;
+}
+main i
+{
+    margin-left: 15%;
+}
+/*Style de la partie section*/
+section h6
+{
+    margin-top: 15%;
+    margin-left: 7.32%;
+    margin-block-end: 0px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+section a
+{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 7.32%;
+    margin-top: 5%;
+}
+section img
+{
+    width: 100%;
+    aspect-ratio: 36/19;
+    object-fit: cover;
+}
+section h2, section h3
+{
+    margin-left: 7.32%;
+}
+section h3
+{
+    margin-block-start: 2%;
+}
+section i
+{
+    color: black;
+}
+section p
+{
+    margin-right: 10%;
+}
+/*Style des textes*/
+a
+{
+    text-decoration: none;
+}
+#location i
+{
+    color: black;
+    margin-left: -7%;
+}
+i
+{
+    color: grey;
+    font-size: 5vw;
+}
+h1, h2, h3, h4, h5
+{
+    font-family: 'Roboto';
+}
+h1
+{
+    font-size: 6vw;
+    font-weight: bolder;
+}
+h2
+{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    margin-block-end: 0px;
+}
+h3
+{
+    font-size: 4vw;
+    font-weight: lighter;
+    color: black;
+}
+h4
+{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+    line-height: normal;
+}
+h5
+{
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+/*Style du footer*/
+h6
+{
+    font-family: 'Shrikhand';
+    color: white;
+    font-size: 5vw;
+    margin-left: 7.32%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-block-start: 0;
+    margin-block-end: 4%;
+    font-weight: lighter;
+}
+footer
+{
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+footer i
+{
+    color: white;
+}
+.fa-utensils, .fa-hands-helping
+{
+    margin-right: 5%;
+}
+.fa-hands-helping
+{
+    font-size: 3.5vw;
+}
+footer h3
+{
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+}
+footer a
+{
+    margin-left: 7.32%;
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-decoration: none;
+}
+/*Style des bouttons*/
+#introduction a
+{
+    background: linear-gradient(180deg, #FF79DA 1%, #9356DC);
+    color: white;
+    border-radius: 30px;
+    width: 55%;
+    /*aspect-ratio: 24/5;*/
+    box-shadow: 2px 9px 15px -7px rgba(0,0,0,0.75);
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3.7vw;
+}
