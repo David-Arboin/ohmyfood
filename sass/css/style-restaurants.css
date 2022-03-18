@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5 {
 
 /*3-component*/
 /*blocs BEM plus indépendants (boutons)*/
-.button_Eplorer_Nos_Restaurants {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +38,17 @@ h1, h2, h3, h4, h5 {
   box-shadow: 2px 9px 15px -7px rgba(0, 0, 0, 0.75);
   font-family: "Roboto";
   font-size: 3.7vw;
+}
+
+.centering_Button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.commander {
+  margin-bottom: 20%;
+  text-align: center;
 }
 
 #loading_Spinner {
@@ -83,6 +94,33 @@ header {
 header img {
   text-align: center;
   width: 43.9%;
+}
+
+.header_Restaurants {
+  align-items: center;
+}
+
+.arrow_Header {
+  position: relative;
+  left: -20%;
+  color: black;
+  font-size: 5vw;
+}
+
+.img_Restaurant {
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.img_Restaurant img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  aspect-ratio: 55/38;
+  object-fit: cover;
 }
 
 .location {
@@ -209,6 +247,139 @@ header img {
   font-size: 5vw;
 }
 
+/*Page des restaurants*/
+.menu {
+  width: 100%;
+  display: flex;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f6f6f6;
+  border-radius: 10vw 10vw 0 0;
+  margin-top: -15vw;
+  z-index: 2;
+  position: relative;
+}
+
+.title_Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Shrikhand";
+  font-size: 6vw;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.title_Menu mark {
+  background-color: #f6f6f6;
+}
+
+mark {
+  font-family: "Shrikhand";
+}
+
+.title_Menu p {
+  margin-right: 8%;
+}
+
+.underline_h1 {
+  margin-block-end: 0px;
+  margin-left: 5%;
+  line-height: 150%;
+  color: #333;
+  text-decoration: none;
+  background: linear-gradient(#99E2D0, #99E2D0) no-repeat left bottom;
+  background-size: 9% 4px;
+}
+
+@keyframes taadaa {
+  from {
+    transform: translate(0px, 40%);
+    animation-timing-function: ease-in-out;
+  }
+  to {
+    transform: translate(0px, 0px);
+    animation-timing-function: ease-in-out;
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sections_Menu {
+  width: 92.72%;
+  margin-left: 3.636%;
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 51/48;
+}
+
+.element_menu {
+  display: flex;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 4vw;
+  margin-top: 5%;
+  width: 100%;
+  aspect-ratio: 51/10;
+  cursor: pointer;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation: taadaa 1s;
+}
+
+.element_menu:hover > .background_elements_menu {
+  margin-right: 0%;
+  transition: 0.3s ease-in;
+}
+
+.element_menu:hover > .background_elements_menu > .validate > .fa-check {
+  transform: rotate(360deg);
+  animation-delay: 0.3s;
+  transition: transform 0.7s ease-in-out;
+}
+
+.background_elements_menu {
+  display: flex;
+  width: 200%;
+  margin-right: -25%;
+  border-radius: 4vw;
+}
+
+.title_informations {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.validate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17.6%;
+  background-color: #99E2D0;
+}
+
+.fa-check {
+  background-color: #f6f6f6;
+  width: 40%;
+  aspect-ratio: 1/1;
+  border-radius: 3vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 6vw !important;
+  font-size: 3vw;
+  color: #99E2D0;
+}
+
 .section {
   width: 100%;
   padding-bottom: 20%;
@@ -274,14 +445,44 @@ header img {
   margin-left: 7.32%;
 }
 
-.name_Restaurant {
+.name_Flat {
+  margin-left: 4vw;
+  font-size: 4vw;
+  font-weight: bolder;
+  color: black;
+  margin-block-end: 0px;
+}
+
+.subname_Flat {
+  margin-left: 5%;
+}
+
+.name_Restaurant, .name_Flat {
   font-size: 4vw;
   font-weight: bolder;
   color: black;
   margin-block-end: 0;
 }
 
-.subname_Restaurant {
+.subtitle_Price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  align-items: baseline;
+}
+
+.prix {
+  color: black;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-block-end: 0;
+  margin-right: 8%;
+  margin-block-start: 0;
+  padding-top: 0;
+}
+
+.subname_Restaurant, .subname_Flat {
   margin-block-start: 2%;
   font-size: 4vw;
   font-weight: lighter;

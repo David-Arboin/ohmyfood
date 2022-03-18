@@ -63,14 +63,45 @@
 {
     margin-left: 7.32%;
 }
-.name_Restaurant
+.name_Flat
+{
+    margin-left: 4vw;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    margin-block-end: 0px;
+}
+
+.subname_Flat
+{
+    margin-left: 5%;
+}
+.name_Restaurant, .name_Flat
 {
     font-size: 4vw;
     font-weight: bolder;
     color: black;
     margin-block-end: 0;
 }
-.subname_Restaurant
+.subtitle_Price
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    align-items: baseline;
+}
+.prix
+{
+    color: black;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-block-end: 0;
+    margin-right: 8%;
+    margin-block-start: 0;
+    padding-top: 0;
+}
+.subname_Restaurant, .subname_Flat
 {
     margin-block-start: 2%;
     font-size: 4vw;
@@ -108,5 +139,4 @@
     -moz-background-clip: text;
     background-clip: text;
    -webkit-text-fill-color:transparent;
-
 }

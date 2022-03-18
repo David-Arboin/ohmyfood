@@ -1,0 +1,16 @@
+.img_Restaurant
+{
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.img_Restaurant img
+{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    aspect-ratio: 55/38;
+    object-fit: cover;
+}

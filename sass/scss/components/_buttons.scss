@@ -1,4 +1,4 @@
-.button_Eplorer_Nos_Restaurants
+.button
 {
     display: flex;
     justify-content: center;
@@ -11,4 +11,15 @@
     box-shadow: 2px 9px 15px -7px rgba(0,0,0,0.75);
     font-family: 'Roboto';
     font-size: 3.7vw;
+}
+.centering_Button
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.commander
+{
+    margin-bottom: 20%;
+    text-align: center;
 }
