@@ -6,11 +6,11 @@
 /*fondations du site (police, normes, box-sizing)*/
 @font-face {
   font-family: "Shrikhand";
-  src: url("../fonts/Shrikhand-Regular.ttf") format("truetype");
+  src: url("../../../fonts/Shrikhand-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("../../../fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
 body {
   margin: 0;
@@ -20,23 +20,8 @@ a {
   text-decoration: none;
 }
 
-#location i {
-  color: black;
-  margin-left: -7%;
-}
-
-i {
-  color: grey;
-  font-size: 5vw;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: "Roboto";
-}
-
-h1 {
-  font-size: 6vw;
-  font-weight: bolder;
 }
 
 h2 {
@@ -52,27 +37,12 @@ h3 {
   color: black;
 }
 
-h4 {
-  font-size: 3vw;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 10%;
-  line-height: normal;
-}
-
-h5 {
-  font-size: 4vw;
-  font-weight: bolder;
-  margin-left: 5%;
-}
-
 /*3-component*/
 /*blocs BEM plus indépendants (boutons)*/
-#introduction a {
+.button_Eplorer_Nos_Restaurants {
   background: linear-gradient(180deg, #FF79DA 1%, #9356DC);
   color: white;
-  border-radius: 30px;
+  border-radius: 5vw;
   width: 55%;
   /*aspect-ratio: 24/5;*/
   box-shadow: 2px 9px 15px -7px rgba(0, 0, 0, 0.75);
@@ -128,7 +98,7 @@ header img {
   width: 43.9%;
 }
 
-#location {
+.location {
   width: 100%;
   justify-content: center;
   aspect-ratio: 41/4;
@@ -138,27 +108,20 @@ header img {
   display: flex;
 }
 
-#location h5 {
-  margin-left: 20px;
+.title_Paris {
+  margin-left: 5vw;
   margin-block-start: 5%;
   margin-block-end: 5%;
+  font-size: 4vw;
 }
 
-#location i {
+.fa-map-marker-alt {
   color: black;
-  margin-left: -7%;
+  margin-left: -9%;
+  font-size: 4vw;
 }
 
-i {
-  color: grey;
-  font-size: 5vw;
-}
-
-a {
-  display: flex;
-}
-
-#introduction {
+.introduction {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -168,48 +131,80 @@ a {
   background-color: #dddcdc;
 }
 
-#introduction h1 {
+.title_Reservez_Le_Menu {
   width: 70%;
   text-align: center;
   margin-block-start: -5%;
+  font-size: 6vw;
+  font-weight: bolder;
 }
 
-#introduction h3 {
+.subtitle_Decouvrez_Les_Restaurants {
   width: 90%;
   text-align: center;
   margin-block-start: -1%;
   margin-bottom: 8%;
+  font-size: 4vw;
+  font-weight: lighter;
+  color: black;
 }
 
-main {
+.main {
   width: 85.36%;
   margin-top: 10%;
   margin-bottom: 10%;
   padding-left: 7.32%;
 }
 
-.backgroung_Number_etape_fonctioning {
-  width: 5vw;
-  aspect-ratio: 1/1;
-  border-radius: 20px;
-  margin-bottom: -15%;
-  margin-left: -2.5%;
-  z-index: 2;
-  position: relative;
-  background-color: #9356DC;
-}
-
-main h1 {
+.title_Fonctionnement {
   margin-top: 15%;
   margin-bottom: 10%;
+  font-size: 6vw;
+  font-weight: bolder;
+}
+
+.functioning {
+  width: 100%;
+  margin-bottom: 7%;
+  aspect-ratio: 35/8;
 }
 
 .backgroung_icone_texte_fonctioning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   z-index: 1;
   position: relative;
   background-color: #dddcdc;
   flex-direction: row;
   align-items: center;
+  border-radius: 5vw;
+  box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.46);
+}
+
+.backgroung_Number_etape_fonctioning {
+  width: 5vw;
+  aspect-ratio: 1/1;
+  border-radius: 5vw;
+  margin-left: -2.5%;
+  z-index: 2;
+  position: relative;
+  background-color: #9356DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 3vw;
+  color: white;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.subtitle_Fonctioning {
+  font-size: 4vw;
+  font-weight: bolder;
 }
 
 .backgroung_icone_texte_fonctioning:hover > i {
@@ -218,21 +213,24 @@ main h1 {
 
 .backgroung_icone_texte_fonctioning:hover {
   background-color: #e4ddee;
+  box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.71);
 }
 
-main i {
-  margin-left: 15%;
+.fa-mobile-alt, .fa-bars {
+  margin: 0 5% 0 5%;
+  color: grey;
+  font-size: 5vw;
 }
 
-section {
+.section {
   width: 100%;
-  aspect-ratio: 41/134;
+  padding-bottom: 20%;
   flex-direction: column;
   display: flex;
   background-color: #dddcdc;
 }
 
-section a {
+.conteneur_Restaurant {
   width: 85.36%;
   aspect-ratio: 36/27;
   flex-direction: column;
@@ -242,37 +240,40 @@ section a {
   border-radius: 20px;
   margin-left: 7.32%;
   margin-top: 5%;
+  box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.46);
 }
 
-section h6 {
-  margin-top: 15%;
+.title_Restaurants {
+  margin-top: 10%;
   margin-left: 7.32%;
   margin-block-end: 0px;
   color: black;
   font-family: "Roboto";
   font-weight: bold;
+  font-size: 5vw;
 }
 
-section img {
+.section img {
   width: 100%;
   aspect-ratio: 36/19;
   object-fit: cover;
 }
 
-section h2, section h3 {
+.name_Restaurant, .subname_Restaurant {
   margin-left: 7.32%;
 }
 
-section h3 {
+.subname_Restaurant {
   margin-block-start: 2%;
 }
 
-section i {
+.section i {
   color: black;
 }
 
-section p {
+.conteneur_Icone_Faheart {
   margin-right: 10%;
+  font-size: 5vw;
 }
 
 .informations_footer_restaurant {
@@ -288,10 +289,7 @@ section p {
 .informations {
   display: flex;
   flex-direction: column;
-}
-
-.fa-heart {
-  transition: color 1s ease-in;
+  width: 80%;
 }
 
 .fa-heart:hover {
@@ -306,7 +304,7 @@ section p {
   -webkit-text-fill-color: transparent;
 }
 
-footer {
+.footer {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -314,10 +312,9 @@ footer {
   background-color: #353535;
   color: white;
   padding-top: 8%;
-  padding-bottom: 10%;
 }
 
-h6 {
+.title_Footer {
   font-family: "Shrikhand";
   color: white;
   font-size: 5vw;
@@ -329,24 +326,21 @@ h6 {
   font-weight: lighter;
 }
 
-footer i {
-  color: white;
-}
-
 .fa-utensils, .fa-hands-helping {
+  color: white;
   margin-right: 5%;
-}
-
-.fa-hands-helping {
   font-size: 3.5vw;
 }
 
-footer h3 {
+.subtitle_Footer {
   margin-block-start: 2%;
   margin-block-end: 2%;
+  font-size: 4vw;
+  font-weight: lighter;
+  color: black;
 }
 
-footer a {
+.footer a {
   margin-left: 7.32%;
   color: white;
   margin-block-start: 0;

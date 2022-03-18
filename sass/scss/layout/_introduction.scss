@@ -1,4 +1,4 @@
-#introduction
+.introduction
 {
     width: 100%;
     display: flex;
@@ -8,16 +8,21 @@
     aspect-ratio: 41/30.5;
     background-color: rgb(221, 220, 220);
 }
-#introduction h1
+.title_Reservez_Le_Menu
 {
     width: 70%;
     text-align: center;
     margin-block-start: -5%;
+    font-size: 6vw;
+    font-weight: bolder;
 }
-#introduction h3
+.subtitle_Decouvrez_Les_Restaurants
 {
     width: 90%;
     text-align: center;
     margin-block-start: -1%;
     margin-bottom: 8%;
+    font-size: 4vw;
+    font-weight: lighter;
+    color: black;
 }

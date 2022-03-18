@@ -1,4 +1,4 @@
-#location
+.location
 {
     width: 100%;
     justify-content: center;
@@ -8,23 +8,16 @@
     align-items: center;
     display: flex;
 }
-#location h5
+.title_Paris
 {
-    margin-left: 20px;
+    margin-left: 5vw;
     margin-block-start: 5%;
     margin-block-end: 5%;
+    font-size: 4vw;
 }
-#location i
+.fa-map-marker-alt
 {
     color: black;
-    margin-left: -7%;
-}
-i
-{
-    color: grey;
-    font-size: 5vw;
-}
-a
-{
-    display: flex;
+    margin-left: -9%;
+    font-size: 4vw;
 }
