@@ -19,6 +19,36 @@
     margin-top: 5%;
     box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.46);
 }
+.conteneur_Nouveau
+{
+    position: relative;
+    width: 18vw;
+    aspect-ratio: 9/3;
+    padding: 1.5vw;
+    top: -93%;
+    left: 70%;
+    background-color: $color-background-label-new;
+    color: $color-text-label-new;
+    text-align: center;
+    border-radius: 1vw;
+    font-family: 'Roboto';
+    font-size: 3vw;
+}
+.img_header_restaurant
+{
+    width: 100%;
+    aspect-ratio: 36/19;
+    object-fit: cover;
+}
+.informations_footer_restaurant
+{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
 .title_Restaurants
 {
     margin-top: 10%;
@@ -29,19 +59,23 @@
     font-weight: bold;
     font-size: 5vw;
 }
-.section img
-{
-    width: 100%;
-    aspect-ratio: 36/19;
-    object-fit: cover;
-}
 .name_Restaurant, .subname_Restaurant
 {
     margin-left: 7.32%;
 }
+.name_Restaurant
+{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    margin-block-end: 0;
+}
 .subname_Restaurant
 {
     margin-block-start: 2%;
+    font-size: 4vw;
+    font-weight: lighter;
+    color: black;
 }
 .section i
 {
@@ -51,16 +85,6 @@
 {
     margin-right: 10%;
     font-size: 5vw;
-}
-.informations_footer_restaurant
-{
-    width: 100%;
-    display: flex;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
 }
 .informations
 {
