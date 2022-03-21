@@ -512,6 +512,359 @@ mark {
   -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 426px) and (max-width: 1023px) {
+  header, header img {
+    height: 62.19px;
+  }
+
+  header img {
+    width: 186.56px;
+  }
+
+  .location {
+    height: 62.05px;
+  }
+
+  header, .location, .main, .introduction {
+    width: 50%;
+  }
+
+  .fa-map-marker-alt, .title_Paris, .subtitle_Decouvrez_Les_Restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title_Fonctionnement {
+    font-size: 2.5vw;
+  }
+
+  .title_Reservez_Le_Menu {
+    font-size: 3.5vw;
+  }
+
+  .button {
+    font-size: 2vw;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .layout__subtitle__header__tablet_desktop {
+    width: 100%;
+    display: flex;
+  }
+
+  .layout__header__tablet_desktop {
+    display: flex;
+    width: 100%;
+  }
+
+  .introduction {
+    height: 60%;
+    padding-top: 2%;
+  }
+
+  .title_Fonctionnement {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .subtitle_Fonctioning {
+    font-size: 2vw;
+  }
+
+  .backgroung_Number_etape_fonctioning {
+    width: 3vw;
+  }
+
+  .number {
+    font-size: 1.5vw;
+  }
+
+  .layout__main_desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .functioning {
+    width: 90%;
+    margin-bottom: 5%;
+    aspect-ratio: 35/6;
+  }
+
+  .backgroung_icone_texte_fonctioning {
+    aspect-ratio: 35/6;
+  }
+
+  .subtitle_Fonctioning {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .section {
+    flex-direction: column;
+    padding-bottom: 2%;
+  }
+
+  .section__restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+    width: 100%;
+  }
+
+  .conteneur_Restaurant {
+    width: 40%;
+    margin-left: 0;
+    margin-top: 3% !important;
+  }
+
+  .title_Restaurants {
+    margin-top: 2%;
+    font-size: 4vw;
+  }
+
+  .conteneur_Restaurant {
+    border-radius: 1vw;
+  }
+
+  .conteneur_Nouveau {
+    width: 9vw;
+    top: -136%;
+    left: 70%;
+    font-size: 2vw;
+    padding: 0.5vw;
+  }
+
+  .name_Restaurant {
+    font-size: 3vw;
+    margin-block-start: 3%;
+  }
+
+  .subname_Restaurant {
+    font-size: 2.5vw;
+  }
+
+  .conteneur_Icone_Faheart {
+    font-size: 3.5vw;
+  }
+
+  .footer {
+    padding-top: 2% !important;
+    aspect-ratio: 20.5/3.5 !important;
+  }
+
+  .option__footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+  }
+
+  .title_Footer {
+    font-size: 4vw !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+  }
+
+  .subtitle_Footer {
+    font-size: 2.5vw !important;
+    white-space: nowrap;
+  }
+
+  .fa-utensils, .fa-hands-helping {
+    font-size: 2vw !important;
+  }
+}
+@media (min-width: 1024px) {
+  header, header img {
+    height: 80px;
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  .location {
+    height: 80px;
+  }
+
+  header, .introduction {
+    width: 40%;
+  }
+
+  .location, .main {
+    width: 60%;
+  }
+
+  .fa-map-marker-alt, .title_Paris, .subtitle_Decouvrez_Les_Restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title_Fonctionnement {
+    font-size: 1.5vw;
+  }
+
+  .title_Reservez_Le_Menu {
+    font-size: 1.5vw;
+  }
+
+  .button {
+    font-size: 1.3vw;
+    width: 45%;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .layout__main_desktop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .choose {
+    margin-left: 5%;
+  }
+
+  .compose {
+    margin-left: 35%;
+  }
+
+  .taste {
+    margin-left: 65%;
+  }
+
+  .layout__subtitle__header__tablet_desktop {
+    width: 100%;
+    display: flex;
+  }
+
+  .layout__header__tablet_desktop {
+    display: flex;
+    width: 100%;
+  }
+
+  .introduction {
+    aspect-ratio: 14/5;
+    padding-top: 2%;
+  }
+
+  .title_Fonctionnement {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+
+  .backgroung_Number_etape_fonctioning {
+    width: 1.5vw;
+  }
+
+  .number {
+    font-size: 1vw;
+  }
+
+  .functioning {
+    width: 28%;
+    margin-bottom: 1%;
+    aspect-ratio: 35/6;
+  }
+
+  .backgroung_icone_texte_fonctioning {
+    aspect-ratio: 35/6;
+  }
+
+  .subtitle_Fonctioning {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 1vw;
+  }
+
+  .section {
+    flex-direction: column;
+    padding-bottom: 2%;
+  }
+
+  .section__restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+    width: 100%;
+  }
+
+  .conteneur_Restaurant {
+    width: 20%;
+    margin-left: 0;
+    margin-top: 3% !important;
+    border-radius: 0.5vw;
+  }
+
+  .title_Restaurants {
+    margin-top: 2%;
+    font-size: 2.5vw;
+  }
+
+  .conteneur_Nouveau {
+    width: 5vw;
+    top: -152%;
+    left: 70%;
+    font-size: 1vw;
+    padding: 0.1vw;
+    border-radius: 0.1vw;
+  }
+
+  .name_Restaurant {
+    font-size: 1.5vw;
+    margin-block-start: 3%;
+  }
+
+  .subname_Restaurant {
+    font-size: 1vw;
+  }
+
+  .conteneur_Icone_Faheart {
+    font-size: 1.5vw;
+  }
+
+  .footer {
+    padding-top: 2% !important;
+    aspect-ratio: 20.5/2.5 !important;
+  }
+
+  .option__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+  }
+
+  .title_Footer {
+    font-size: 2vw !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    margin-left: 2% !important;
+  }
+
+  .subtitle_Footer {
+    font-size: 1.5vw !important;
+    white-space: nowrap;
+  }
+
+  .fa-utensils, .fa-hands-helping {
+    font-size: 2vw !important;
+  }
+}
 .footer {
   width: 100%;
   display: flex;
