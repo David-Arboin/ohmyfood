@@ -20,11 +20,11 @@
     {
         width: 60%;
     }
-    .fa-map-marker-alt, .title_Paris, .subtitle_Decouvrez_Les_Restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title_Fonctionnement
+    .fa-map-marker-alt, .title__paris, .subtitle__decouvrez_les_restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title__functioning
     {
         font-size: 1.5vw;
     }
-    .title_Reservez_Le_Menu
+    .title__reservez_le_menu
     {
         font-size: 1.5vw;
     }
@@ -76,13 +76,13 @@
         aspect-ratio: 14/5;
         padding-top: 2%;
     }
-    .title_Fonctionnement
+    .title__functioning
     {
         margin-top: 1%;
         margin-bottom: 1%;
         margin-left: 1%;
     } 
-    .backgroung_Number_etape_fonctioning
+    .backgroung__number_etape_fonctioning
     {
         width: 1.5vw;
     }
@@ -96,11 +96,11 @@
         margin-bottom: 1%;
         aspect-ratio: 35/6;
     }
-    .backgroung_icone_texte_fonctioning
+    .backgroung__icone_texte_fonctioning
     {
         aspect-ratio: 35/6;
     }
-    .subtitle_Fonctioning
+    .subtitle__fonctioning
     {
         margin-block-start: 0;
         margin-block-end: 0;
@@ -119,19 +119,19 @@
         padding-bottom: 2%;
         width: 100%;
     }
-    .conteneur_Restaurant
+    .conteneur__restaurant
     {
         width: 20%;
         margin-left: 0;
         margin-top: 3% !important;
         border-radius: 0.5vw;
     }
-    .title_Restaurants
+    .title__restaurants
     {
         margin-top: 2%;
         font-size: 2.5vw;
     }
-    .conteneur_Nouveau
+    .conteneur__nouveau
     {
         width: 5vw;
         top: -152%;
@@ -140,16 +140,16 @@
         padding: 0.1vw;
         border-radius: 0.1vw;
     }
-    .name_Restaurant
+    .name__restaurant
     {
         font-size: 1.5vw;
         margin-block-start: 3%;
     }
-    .subname_Restaurant
+    .subname__restaurant
     {
         font-size: 1vw;
     }
-    .conteneur_Icone_Faheart
+    .conteneur__icone_faheart
     {
         font-size: 1.5vw;
     }
@@ -166,14 +166,14 @@
         text-align: center;
         align-items: baseline;
     }
-    .title_Footer
+    .title__footer
     {
         font-size: 2vw !important;
         margin-top: 1% !important;
         margin-bottom: 1% !important;
         margin-left: 2% !important;
     }
-    .subtitle_Footer
+    .subtitle__footer
     {
         font-size: 1.5vw !important;
         white-space: nowrap;

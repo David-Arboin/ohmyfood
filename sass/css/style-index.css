@@ -40,18 +40,19 @@ h1, h2, h3, h4, h5 {
   font-size: 3.7vw;
 }
 
-.centering_Button {
+.centering__button {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.commander {
+.order {
   margin-bottom: 20%;
   text-align: center;
+  font-size: 5vw;
 }
 
-#loading_Spinner {
+#loading__spinner {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -96,7 +97,7 @@ header img {
   width: 43.9%;
 }
 
-.header_Restaurants {
+.header__restaurants {
   align-items: center;
 }
 
@@ -117,7 +118,7 @@ header img {
   display: flex;
 }
 
-.title_Paris {
+.title__paris {
   margin-left: 5vw;
   margin-block-start: 5%;
   margin-block-end: 5%;
@@ -140,7 +141,7 @@ header img {
   background-color: #dddcdc;
 }
 
-.title_Reservez_Le_Menu {
+.title__reservez_le_menu {
   width: 70%;
   text-align: center;
   margin-block-start: -5%;
@@ -148,7 +149,7 @@ header img {
   font-weight: bolder;
 }
 
-.subtitle_Decouvrez_Les_Restaurants {
+.subtitle__decouvrez_les_restaurants {
   width: 90%;
   text-align: center;
   margin-block-start: -1%;
@@ -165,7 +166,7 @@ header img {
   padding-left: 7.32%;
 }
 
-.title_Fonctionnement {
+.title__functioning {
   margin-top: 15%;
   margin-bottom: 10%;
   font-size: 6vw;
@@ -178,7 +179,7 @@ header img {
   aspect-ratio: 35/8;
 }
 
-.backgroung_icone_texte_fonctioning {
+.backgroung__icone_texte_fonctioning {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -191,7 +192,7 @@ header img {
   box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.46);
 }
 
-.backgroung_Number_etape_fonctioning {
+.backgroung__number_etape_fonctioning {
   width: 5vw;
   aspect-ratio: 1/1;
   border-radius: 5vw;
@@ -211,16 +212,16 @@ header img {
   margin-block-end: 0;
 }
 
-.subtitle_Fonctioning {
+.subtitle__fonctioning {
   font-size: 4vw;
   font-weight: bolder;
 }
 
-.backgroung_icone_texte_fonctioning:hover > i {
+.backgroung__icone_texte_fonctioning:hover > i {
   color: #9356DC;
 }
 
-.backgroung_icone_texte_fonctioning:hover {
+.backgroung__icone_texte_fonctioning:hover {
   background-color: #e4ddee;
   box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.71);
 }
@@ -246,7 +247,7 @@ header img {
   position: relative;
 }
 
-.title_Menu {
+.title__menu {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -256,7 +257,7 @@ header img {
   margin-top: 5%;
 }
 
-.title_Menu mark {
+.title__menu mark {
   background-color: #f6f6f6;
 }
 
@@ -264,7 +265,7 @@ mark {
   font-family: "Shrikhand";
 }
 
-.title_Menu p {
+.title__menu p {
   margin-right: 8%;
 }
 
@@ -276,7 +277,7 @@ mark {
   background-color: #dddcdc;
 }
 
-.conteneur_Restaurant {
+.conteneur__restaurant {
   width: 85.36%;
   aspect-ratio: 36/27;
   flex-direction: column;
@@ -289,7 +290,7 @@ mark {
   box-shadow: 0px 8px 16px 7px rgba(0, 0, 0, 0.46);
 }
 
-.conteneur_Nouveau {
+.conteneur__nouveau {
   position: relative;
   width: 18vw;
   aspect-ratio: 9/3;
@@ -304,17 +305,17 @@ mark {
   font-size: 3vw;
 }
 
-.img_header_restaurant {
+.img__header_restaurant {
   width: 100%;
   aspect-ratio: 36/19;
   object-fit: cover;
 }
 
-.title_Section {
+.title__section {
   font-size: 4vw;
 }
 
-.informations_footer_restaurant {
+.informations__footer_restaurant {
   width: 100%;
   display: flex;
   aspect-ratio: 36/8;
@@ -323,14 +324,14 @@ mark {
   align-items: center;
 }
 
-.title_Restaurants {
+.title__restaurants {
   margin-top: 10%;
   margin-left: 7.32%;
   margin-block-end: 0px;
   color: black;
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 /*Page d'un restaurant*/
@@ -344,7 +345,7 @@ mark {
   background-size: 11% 4px;
 }
 
-.sections_Menu {
+.sections__menu {
   width: 92.72%;
   margin-left: 3.636%;
   display: flex;
@@ -368,7 +369,7 @@ mark {
     opacity: 1;
   }
 }
-.element_menu {
+.element__menu {
   background-color: #fff;
   overflow: hidden;
   border-radius: 4vw;
@@ -382,32 +383,32 @@ mark {
   animation: taadaa 1s;
 }
 
-.background_Element_Menu {
+.background__element_menu {
   display: flex;
   justify-content: space-between;
   width: 122%;
   margin-right: -17.6%;
 }
 
-.informations_Et_Price {
+.informations__and_price {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
 
-.subtitle_Menu_Et_Price {
+.subtitle__menu_and_Price {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.element_menu:hover > .background_Element_Menu {
+.element__menu:hover > .background__element_menu {
   width: 100%;
   margin-right: 0;
   transition: 0.3s ease-in;
 }
 
-.element_menu:hover > .price_Et_Validate > .validate > .fa-check {
+.element__menu:hover > .price_Et_Validate > .validate > .fa-check {
   transform: rotate(360deg);
   animation-delay: 0.3s;
   transition: transform 0.7s ease-in-out;
@@ -433,29 +434,29 @@ mark {
   color: #99E2D0;
 }
 
-.name_Restaurant, .subname_Restaurant {
+.name__restaurant, .subname__restaurant {
   margin-left: 7.32%;
 }
 
-.name_Restaurant {
+.name__restaurant {
   margin-block-end: 0;
 }
 
-.name_Flat {
+.name__flat {
   font-size: 4vw;
   font-weight: bolder;
   color: black;
   margin-block-end: 0;
 }
 
-.subname_Flat {
+.subname__flat {
   margin-block-start: 2vw;
   font-size: 4vw;
   font-weight: lighter;
   color: black;
 }
 
-.name_Flat, .subname_Flat {
+.name__flat, .subname__flat {
   margin-left: 3vw;
   text-overflow: clip;
   white-space: nowrap;
@@ -463,13 +464,13 @@ mark {
   text-overflow: ellipsis;
 }
 
-.name_Restaurant, .name_Flat {
+.name__restaurant, .name__flat {
   font-size: 4vw;
   font-weight: bolder;
   color: black;
 }
 
-.prix {
+.price {
   color: black;
   font-size: 4vw;
   font-weight: bold;
@@ -478,7 +479,7 @@ mark {
   margin-left: 2%;
 }
 
-.subname_Restaurant {
+.subname__restaurant {
   margin-block-start: 2%;
   font-size: 4vw;
   font-weight: lighter;
@@ -489,7 +490,7 @@ mark {
   color: black;
 }
 
-.conteneur_Icone_Faheart {
+.conteneur__icone_faheart {
   margin-right: 10%;
   font-size: 5vw;
 }
@@ -529,11 +530,11 @@ mark {
     width: 50%;
   }
 
-  .fa-map-marker-alt, .title_Paris, .subtitle_Decouvrez_Les_Restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title_Fonctionnement {
+  .fa-map-marker-alt, .title__paris, .subtitle__decouvrez_les_restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title__functioning {
     font-size: 2.5vw;
   }
 
-  .title_Reservez_Le_Menu {
+  .title__reservez_le_menu {
     font-size: 3.5vw;
   }
 
@@ -565,16 +566,16 @@ mark {
     padding-top: 2%;
   }
 
-  .title_Fonctionnement {
+  .title__functioning {
     margin-top: 5%;
     margin-bottom: 5%;
   }
 
-  .subtitle_Fonctioning {
+  .subtitle__fonctioning {
     font-size: 2vw;
   }
 
-  .backgroung_Number_etape_fonctioning {
+  .backgroung__number_etape_fonctioning {
     width: 3vw;
   }
 
@@ -595,11 +596,11 @@ mark {
     aspect-ratio: 35/6;
   }
 
-  .backgroung_icone_texte_fonctioning {
+  .backgroung__icone_texte_fonctioning {
     aspect-ratio: 35/6;
   }
 
-  .subtitle_Fonctioning {
+  .subtitle__fonctioning {
     margin-block-start: 0;
     margin-block-end: 0;
   }
@@ -617,22 +618,22 @@ mark {
     width: 100%;
   }
 
-  .conteneur_Restaurant {
+  .conteneur__restaurant {
     width: 40%;
     margin-left: 0;
     margin-top: 3% !important;
   }
 
-  .title_Restaurants {
+  .title__restaurants {
     margin-top: 2%;
     font-size: 4vw;
   }
 
-  .conteneur_Restaurant {
+  .conteneur__restaurant {
     border-radius: 1vw;
   }
 
-  .conteneur_Nouveau {
+  .conteneur__nouveau {
     width: 9vw;
     top: -136%;
     left: 70%;
@@ -640,16 +641,16 @@ mark {
     padding: 0.5vw;
   }
 
-  .name_Restaurant {
+  .name__restaurant {
     font-size: 3vw;
     margin-block-start: 3%;
   }
 
-  .subname_Restaurant {
+  .subname__restaurant {
     font-size: 2.5vw;
   }
 
-  .conteneur_Icone_Faheart {
+  .conteneur__icone_faheart {
     font-size: 3.5vw;
   }
 
@@ -667,13 +668,13 @@ mark {
     align-items: baseline;
   }
 
-  .title_Footer {
+  .title__footer {
     font-size: 4vw !important;
     margin-top: 1% !important;
     margin-bottom: 1% !important;
   }
 
-  .subtitle_Footer {
+  .subtitle__footer {
     font-size: 2.5vw !important;
     white-space: nowrap;
   }
@@ -703,11 +704,11 @@ mark {
     width: 60%;
   }
 
-  .fa-map-marker-alt, .title_Paris, .subtitle_Decouvrez_Les_Restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title_Fonctionnement {
+  .fa-map-marker-alt, .title__paris, .subtitle__decouvrez_les_restaurants, .fa-mobile-alt, .fa-bars, .fa-store, .title__functioning {
     font-size: 1.5vw;
   }
 
-  .title_Reservez_Le_Menu {
+  .title__reservez_le_menu {
     font-size: 1.5vw;
   }
 
@@ -759,13 +760,13 @@ mark {
     padding-top: 2%;
   }
 
-  .title_Fonctionnement {
+  .title__functioning {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
   }
 
-  .backgroung_Number_etape_fonctioning {
+  .backgroung__number_etape_fonctioning {
     width: 1.5vw;
   }
 
@@ -779,11 +780,11 @@ mark {
     aspect-ratio: 35/6;
   }
 
-  .backgroung_icone_texte_fonctioning {
+  .backgroung__icone_texte_fonctioning {
     aspect-ratio: 35/6;
   }
 
-  .subtitle_Fonctioning {
+  .subtitle__fonctioning {
     margin-block-start: 0;
     margin-block-end: 0;
     font-size: 1vw;
@@ -802,19 +803,19 @@ mark {
     width: 100%;
   }
 
-  .conteneur_Restaurant {
+  .conteneur__restaurant {
     width: 20%;
     margin-left: 0;
     margin-top: 3% !important;
     border-radius: 0.5vw;
   }
 
-  .title_Restaurants {
+  .title__restaurants {
     margin-top: 2%;
     font-size: 2.5vw;
   }
 
-  .conteneur_Nouveau {
+  .conteneur__nouveau {
     width: 5vw;
     top: -152%;
     left: 70%;
@@ -823,16 +824,16 @@ mark {
     border-radius: 0.1vw;
   }
 
-  .name_Restaurant {
+  .name__restaurant {
     font-size: 1.5vw;
     margin-block-start: 3%;
   }
 
-  .subname_Restaurant {
+  .subname__restaurant {
     font-size: 1vw;
   }
 
-  .conteneur_Icone_Faheart {
+  .conteneur__icone_faheart {
     font-size: 1.5vw;
   }
 
@@ -849,14 +850,14 @@ mark {
     align-items: baseline;
   }
 
-  .title_Footer {
+  .title__footer {
     font-size: 2vw !important;
     margin-top: 1% !important;
     margin-bottom: 1% !important;
     margin-left: 2% !important;
   }
 
-  .subtitle_Footer {
+  .subtitle__footer {
     font-size: 1.5vw !important;
     white-space: nowrap;
   }
@@ -875,7 +876,7 @@ mark {
   padding-top: 8%;
 }
 
-.title_Footer {
+.title__footer {
   font-family: "Shrikhand";
   color: white;
   font-size: 5vw;
@@ -893,7 +894,7 @@ mark {
   font-size: 3.5vw;
 }
 
-.subtitle_Footer {
+.subtitle__footer {
   margin-block-start: 2%;
   margin-block-end: 2%;
   font-size: 4vw;

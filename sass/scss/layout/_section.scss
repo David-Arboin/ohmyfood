@@ -6,7 +6,7 @@
     display: flex;
     background-color: rgb(221, 220, 220);
 }
-.conteneur_Restaurant
+.conteneur__restaurant
 {
     width: 85.36%;
     aspect-ratio: 36/27;
@@ -19,7 +19,7 @@
     margin-top: 5%;
     box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.46);
 }
-.conteneur_Nouveau
+.conteneur__nouveau
 {
     position: relative;
     width: 18vw;
@@ -34,17 +34,17 @@
     font-family: 'Roboto';
     font-size: 3vw;
 }
-.img_header_restaurant
+.img__header_restaurant
 {
     width: 100%;
     aspect-ratio: 36/19;
     object-fit: cover;
 }
-.title_Section
+.title__section
 {
     font-size: 4vw;
 }
-.informations_footer_restaurant
+.informations__footer_restaurant
 {
     width: 100%;
     display: flex;
@@ -53,7 +53,7 @@
     flex-direction: row;
     align-items: center;
 }
-.title_Restaurants
+.title__restaurants
 {
     margin-top: 10%;
     margin-left: 7.32%;
@@ -61,7 +61,7 @@
     color: black;
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 /*Page d'un restaurant*/
 .underline_h1
@@ -74,7 +74,7 @@
     background: linear-gradient($color-tertiary, $color-tertiary) no-repeat left bottom;
     background-size: 11% 4px;
 }
-.sections_Menu
+.sections__menu
 {
     width: 92.72%;
     margin-left: 3.636%;
@@ -89,7 +89,7 @@
     from {opacity: 0;}
     to {opacity: 1;}
 }
-.element_menu
+.element__menu
 {
     background-color: $color-white;
     overflow: hidden;
@@ -103,32 +103,32 @@
     animation-iteration-count: infinite;
     animation: taadaa 1s;
 }
-.background_Element_Menu
+.background__element_menu
 {
     display: flex;
     justify-content: space-between;
     width: 122%;
     margin-right: -17.6%;
 }
-.informations_Et_Price
+.informations__and_price
 {
     display: flex;
     flex-direction: column;
     width: 80%;
 }
-.subtitle_Menu_Et_Price
+.subtitle__menu_and_Price
 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-.element_menu:hover > .background_Element_Menu
+.element__menu:hover > .background__element_menu
 {
     width: 100%;
     margin-right: 0;
     transition: 0.3s ease-in;
 }
-.element_menu:hover > .price_Et_Validate > .validate > .fa-check
+.element__menu:hover > .price_Et_Validate > .validate > .fa-check
 {
     transform: rotate(360deg);
     animation-delay: 0.3s;
@@ -154,29 +154,29 @@
     font-size: 3vw;
     color: $color-tertiary;
 }
-.name_Restaurant, .subname_Restaurant
+.name__restaurant, .subname__restaurant
 {
     margin-left: 7.32%;
 }
-.name_Restaurant
+.name__restaurant
 {
     margin-block-end: 0;
 }
-.name_Flat
+.name__flat
 {
     font-size: 4vw;
     font-weight: bolder;
     color: black;
     margin-block-end: 0;
 }
-.subname_Flat
+.subname__flat
 {
     margin-block-start: 2vw;
     font-size: 4vw;
     font-weight: lighter;
     color: black;
 }
-.name_Flat, .subname_Flat
+.name__flat, .subname__flat
 {
     margin-left: 3vw;
     text-overflow: clip;
@@ -184,13 +184,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.name_Restaurant, .name_Flat
+.name__restaurant, .name__flat
 {
     font-size: 4vw;
     font-weight: bolder;
     color: black;
 }
-.prix
+.price
 {
     color: black;
     font-size: 4vw;
@@ -199,7 +199,7 @@
     margin-right: 2%;
     margin-left: 2%;
 }
-.subname_Restaurant
+.subname__restaurant
 {
     margin-block-start: 2%;
     font-size: 4vw;
@@ -210,7 +210,7 @@
 {
     color: black;
 }
-.conteneur_Icone_Faheart
+.conteneur__icone_faheart
 {
     margin-right: 10%;
     font-size: 5vw;
