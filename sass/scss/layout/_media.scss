@@ -1,11 +1,22 @@
-@media screen and (min-width: 426px) {
+@media (min-width: 426px) and (max-width: 1024px) {
+    header
+    {
+        height: 100px;
+    }
+    header img
+    {
+        height: auto;
+    }
     .header_Restaurants
     {
-        height: 110px;
+        align-items: center;
     }
-    .menu
+    .arrow_Header
     {
-        margin-top: -55%;
+        position: relative;
+        left: -20%;
+        color: black;
+        font-size: 5vw;
     }
     
 }

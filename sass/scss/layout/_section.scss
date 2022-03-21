@@ -48,7 +48,7 @@
 {
     width: 100%;
     display: flex;
-    height: auto;
+    aspect-ratio: 36/8;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -157,6 +157,10 @@
 .name_Restaurant, .subname_Restaurant
 {
     margin-left: 7.32%;
+}
+.name_Restaurant
+{
+    margin-block-end: 0;
 }
 .name_Flat
 {
