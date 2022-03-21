@@ -508,6 +508,15 @@ mark {
   -webkit-text-fill-color: transparent;
 }
 
+@media screen and (min-width: 426px) {
+  .header_Restaurants {
+    height: 110px;
+  }
+
+  .menu {
+    margin-top: -55%;
+  }
+}
 .footer {
   width: 100%;
   display: flex;
