@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     aspect-ratio: 41/22;
-    background-color: #353535;
+    background-color: $color-background-footer;
     color: white;
     padding-top: 8%;
 }
@@ -43,7 +43,7 @@
     text-decoration: none;
 }
 .email-links {
-    background: #fff;
+    background: $color-white;
     border: 5px solid #222;
     border-radius: 18px;
     display: grid;

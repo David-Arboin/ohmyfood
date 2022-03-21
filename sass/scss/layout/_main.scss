@@ -39,7 +39,7 @@
     margin-left: -2.5%;
     z-index: 2;
     position: relative;
-    background-color: #9356DC;
+    background-color: $color-primary;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@
 }
 .backgroung_icone_texte_fonctioning:hover > i
 {
-    color: #9356DC;
+    color: $color-primary;
 }
 .backgroung_icone_texte_fonctioning:hover
 {

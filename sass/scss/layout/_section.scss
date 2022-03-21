@@ -71,7 +71,7 @@
     line-height: 150%;
     color: #333;
     text-decoration: none;
-    background: linear-gradient(#99E2D0, #99E2D0) no-repeat left bottom;
+    background: linear-gradient($color-tertiary, $color-tertiary) no-repeat left bottom;
     background-size: 11% 4px;
 }
 .sections_Menu
@@ -140,11 +140,11 @@
     justify-content: center;
     align-items: center;
     width: 17.6%;
-    background-color: #99E2D0;
+    background-color: $color-tertiary;
 }
 .fa-check
 {
-    background-color: #f6f6f6;
+    background-color: $color-background-elements;
     width: 40%;
     aspect-ratio: 1/1;
     border-radius: 3vw;
@@ -152,7 +152,7 @@
     vertical-align: middle;
     line-height: 6vw !important;
     font-size: 3vw;
-    color: #99E2D0;
+    color: $color-tertiary;
 }
 .name_Restaurant, .subname_Restaurant
 {

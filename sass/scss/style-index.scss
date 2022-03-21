@@ -3,14 +3,10 @@
 /*1-utils*/
 /*variables, fonctions, mixins et %placeholders*/
 @import "./utils/variables";
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/extensions";
 
 /*2-base*/
 /*fondations du site (police, normes, box-sizing)*/
 @import "./base/base";
-@import "./base/typography";
 
 /*3-component*/
 /*blocs BEM plus indépendants (boutons)*/
@@ -24,17 +20,9 @@
 @import "./layout/introduction";
 @import "./layout/main";
 @import "./layout/section";
-@import "./layout/nav";
-@import "./layout/container";
 @import "./layout/media";
-@import "./layout/form";
 @import "./layout/footer";
 
 /*5-pages*/
-/*bloc de code d’une page (Accueil)*/
-@import "./pages/work";
-@import "./pages/about";
-@import "./pages/project";
-
 /*6-Themes > code thématique (style customisé pour Noël ou pour l’été)*/
 /*7-Vendors (tiers) > directory pour des feuilles de style externes. Bootstrap ou jQuery UI*/

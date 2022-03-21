@@ -512,26 +512,6 @@ mark {
   -webkit-text-fill-color: transparent;
 }
 
-@media (min-width: 426px) and (max-width: 1024px) {
-  header {
-    height: 100px;
-  }
-
-  header img {
-    height: auto;
-  }
-
-  .header_Restaurants {
-    align-items: center;
-  }
-
-  .arrow_Header {
-    position: relative;
-    left: -20%;
-    color: black;
-    font-size: 5vw;
-  }
-}
 .footer {
   width: 100%;
   display: flex;
@@ -617,7 +597,6 @@ mark {
 }
 
 /*5-pages*/
-/*bloc de code d’une page (Accueil)*/
 /*6-Themes > code thématique (style customisé pour Noël ou pour l’été)*/
 /*7-Vendors (tiers) > directory pour des feuilles de style externes. Bootstrap ou jQuery UI*/
 
