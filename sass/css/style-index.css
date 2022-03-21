@@ -369,7 +369,6 @@ mark {
   }
 }
 .element_menu {
-  display: flex;
   background-color: #fff;
   overflow: hidden;
   border-radius: 4vw;
@@ -381,11 +380,30 @@ mark {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation: taadaa 1s;
-  position: relative;
 }
 
-.element_menu:hover > .price_Et_Validate {
+.background_Element_Menu {
+  display: flex;
+  justify-content: space-between;
+  width: 122%;
+  margin-right: -17.6%;
+}
+
+.informations_Et_Price {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.subtitle_Menu_Et_Price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.element_menu:hover > .background_Element_Menu {
   width: 100%;
+  margin-right: 0;
   transition: 0.3s ease-in;
 }
 
@@ -395,43 +413,11 @@ mark {
   transition: transform 0.7s ease-in-out;
 }
 
-.background_elements_menu {
-  display: flex;
-  width: 200%;
-  margin-right: -25%;
-  border-radius: 4vw;
-}
-
-.title_informations {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  background-color: transparent;
-  position: absolute;
-  z-index: 10;
-}
-
-.price_Et_Validate {
-  display: flex;
-  width: 130%;
-  height: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  position: absolute;
-  z-index: 20;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
-
 .validate {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 17.6%;
-  height: 100%;
   background-color: #99E2D0;
 }
 
@@ -460,10 +446,16 @@ mark {
 
 .subname_Flat {
   margin-block-start: 2vw;
+  font-size: 4vw;
+  font-weight: lighter;
+  color: black;
 }
 
 .name_Flat, .subname_Flat {
   margin-left: 3vw;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -477,19 +469,13 @@ mark {
   color: black;
   font-size: 4vw;
   font-weight: bold;
-  margin-right: 10%;
-  padding-top: 0;
-  margin-block-end: 3.5vw;
+  margin-block-start: 0;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .subname_Restaurant {
   margin-block-start: 2%;
-  font-size: 4vw;
-  font-weight: lighter;
-  color: black;
-}
-
-.subname_Flat {
   font-size: 4vw;
   font-weight: lighter;
   color: black;
