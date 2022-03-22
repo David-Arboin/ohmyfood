@@ -3,10 +3,26 @@
     {
         height: 62.19px;
     }
-
+    header
+    {
+        justify-content: flex-start;
+    }
     header img
     {
         width: 186.56px;
+        margin-left: 5%;
+    }
+    .fa-arrow-left
+    {
+        font-size: 4vw;
+    }
+    .arrow_Header
+    {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 5%;
     }
     .location
     {
