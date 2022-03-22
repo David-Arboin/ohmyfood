@@ -185,7 +185,7 @@ header img {
 .title__functioning {
   margin-top: 15%;
   margin-bottom: 10%;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: bolder;
 }
 
@@ -347,7 +347,7 @@ mark {
   color: black;
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 /*Page d'un restaurant*/
@@ -424,7 +424,7 @@ mark {
   transition: 0.3s ease-in;
 }
 
-.element__menu:hover > .price_Et_Validate > .validate > .fa-check {
+.sections__menu:hover > .element__menu > .background__element_menu > .validate > .fa-check {
   transform: rotate(360deg);
   animation-delay: 0.3s;
   transition: transform 0.7s ease-in-out;
@@ -698,14 +698,202 @@ mark {
   .fa-utensils, .fa-hands-helping {
     font-size: 2vw !important;
   }
+
+  /*Mise en page de la page restaurants*/
+  .menu {
+    justify-content: space-around;
+    width: 90%;
+    margin-top: -65vw;
+    margin-left: 5%;
+    border-radius: 2vw;
+    aspect-ratio: 703/485.7;
+    background-color: transparent;
+    border: 2px solid #f6f6f6;
+  }
+
+  .title__menu {
+    margin-top: 0 !important;
+    width: 35%;
+    font-size: 2vw;
+  }
+
+  .title__menu mark {
+    font-size: 3vw;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .fa-heart {
+    font-size: 3vw;
+    color: #fff;
+  }
+
+  .title__section {
+    font-size: 2vw;
+    color: #fff;
+  }
+
+  .element__menu {
+    aspect-ratio: 6/2;
+    border-radius: 1vw;
+  }
+
+  .name__restaurant, .name__flat {
+    font-size: 2vw;
+  }
+
+  .name__flat, .subname__flat {
+    margin-left: 1vw !important;
+  }
+
+  .subname__flat, .price {
+    font-size: 2vw;
+    margin-block-start: 1vw;
+  }
+
+  .layout__tablet_and_desktop {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 0.8%;
+  }
+
+  .layout__menu {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .sections__menu {
+    width: 95%;
+    margin-left: 0 !important;
+  }
+
+  .order {
+    margin-bottom: 2%;
+    font-size: 3vw;
+    width: 33%;
+  }
+
+  .underline_h1 {
+    background-size: 22% 3px;
+  }
+
+  .fa-check {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    height: 25%;
+    width: 50%;
+  }
 }
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 41/18;
+  background-color: #353535;
+  color: white;
+  padding-top: 8%;
+}
+
+.title__footer {
+  font-family: "Shrikhand";
+  color: white;
+  font-size: 5vw;
+  margin-left: 7.32%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  margin-block-start: 0;
+  margin-block-end: 4%;
+  font-weight: lighter;
+}
+
+.fa-utensils, .fa-hands-helping {
+  color: white;
+  margin-right: 5%;
+  font-size: 3.5vw;
+}
+
+.subtitle__footer {
+  margin-block-start: 2%;
+  margin-block-end: 2%;
+  font-size: 4vw;
+  font-weight: lighter;
+  color: black;
+}
+
+.footer a {
+  margin-left: 7.32%;
+  color: white;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-decoration: none;
+}
+
+.email-links {
+  background: #fff;
+  border: 5px solid #222;
+  border-radius: 18px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  position: relative;
+  width: clamp(600px, 50%, 800px);
+}
+
+.email-links:before {
+  content: "";
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  border: 5px solid #222;
+  border-radius: 18px;
+  height: 100%;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.email-link {
+  padding: 1rem;
+}
+
+.email-link:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.email-link svg {
+  filter: drop-shadow(1px 0 5px rgba(0, 0, 0, 0.5));
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
 @media (min-width: 1024px) {
   header, header img {
     height: 80px;
   }
 
+  header {
+    justify-content: flex-start;
+  }
+
   header img {
     width: 200px;
+    margin-left: 5%;
+  }
+
+  .arrow_Header {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 5%;
   }
 
   .location {
@@ -726,11 +914,6 @@ mark {
 
   .title__reservez_le_menu {
     font-size: 1.5vw;
-  }
-
-  .button {
-    font-size: 1.3vw;
-    width: 45%;
   }
 
   .main {
@@ -860,10 +1043,10 @@ mark {
 
   .option__footer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
     align-items: baseline;
+    margin-left: 10%;
   }
 
   .title__footer {
@@ -876,99 +1059,119 @@ mark {
   .subtitle__footer {
     font-size: 1.5vw !important;
     white-space: nowrap;
+    margin-left: 10%;
   }
 
   .fa-utensils, .fa-hands-helping {
     font-size: 2vw !important;
   }
-}
-.footer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  aspect-ratio: 41/22;
-  background-color: #353535;
-  color: white;
-  padding-top: 8%;
-}
 
-.title__footer {
-  font-family: "Shrikhand";
-  color: white;
-  font-size: 5vw;
-  margin-left: 7.32%;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  margin-block-start: 0;
-  margin-block-end: 4%;
-  font-weight: lighter;
-}
+  .fa-arrow-left {
+    font-size: 1.5vw;
+  }
 
-.fa-utensils, .fa-hands-helping {
-  color: white;
-  margin-right: 5%;
-  font-size: 3.5vw;
-}
+  .menu {
+    justify-content: space-around;
+    width: 95.5%;
+    margin-top: -67.5vw;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 2vw;
+    aspect-ratio: auto;
+    background-color: transparent;
+    border: 2px solid #f6f6f6;
+  }
 
-.subtitle__footer {
-  margin-block-start: 2%;
-  margin-block-end: 2%;
-  font-size: 4vw;
-  font-weight: lighter;
-  color: black;
-}
+  .title__menu {
+    margin-top: 0 !important;
+    width: 20%;
+    font-size: 1.5vw;
+  }
 
-.footer a {
-  margin-left: 7.32%;
-  color: white;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  text-decoration: none;
-}
+  .title__menu mark {
+    font-size: 1.5vw;
+    background-color: transparent;
+    color: #fff;
+  }
 
-.email-links {
-  background: #fff;
-  border: 5px solid #222;
-  border-radius: 18px;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 2rem;
-  position: relative;
-  width: clamp(600px, 50%, 800px);
-}
+  .fa-heart {
+    font-size: 1.5vw;
+    color: #fff;
+  }
 
-.email-links:before {
-  content: "";
-  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
-  border: 5px solid #222;
-  border-radius: 18px;
-  height: 100%;
-  position: absolute;
-  left: 1rem;
-  top: 1rem;
-  width: 100%;
-  z-index: -1;
-}
+  .title__section {
+    font-size: 1.5vw;
+    color: #fff;
+  }
 
-.email-link {
-  padding: 1rem;
-}
+  .element__menu {
+    aspect-ratio: 6/1.3;
+    border-radius: 1vw;
+  }
 
-.email-link:not(:last-child) {
-  border-right: 1px solid #ccc;
-}
+  .name__flat {
+    font-size: 1.5vw;
+  }
 
-.email-link svg {
-  filter: drop-shadow(1px 0 5px rgba(0, 0, 0, 0.5));
-  margin-right: 10px;
-  position: relative;
-  top: 4px;
-}
+  .name__flat, .subname__flat {
+    margin-left: 1vw !important;
+  }
 
-/*5-pages*/
-/*bloc de code d’une page (Accueil)*/
-/*6-Themes > code thématique (style customisé pour Noël ou pour l’été)*/
-/*7-Vendors (tiers) > directory pour des feuilles de style externes. Bootstrap ou jQuery UI*/
+  .subname__flat, .price {
+    font-size: 1.5vw;
+    margin-block-start: 1vw;
+  }
+
+  .layout__tablet_and_desktop {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 0.8%;
+  }
+
+  .layout__menu {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .sections__menu {
+    width: 95%;
+    aspect-ratio: 10.4/9.2;
+    margin-left: 0 !important;
+  }
+
+  .order {
+    margin-bottom: 2%;
+    font-size: 2vw;
+    width: 20%;
+  }
+
+  .underline_h1 {
+    background-size: 66% 3px;
+  }
+
+  .fa-check {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    height: 33%;
+    width: 50%;
+    margin-bottom: 20%;
+  }
+
+  .layout__footer_desktop {
+    flex-direction: row !important;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+    bottom: 0 !important;
+    height: 8%;
+    padding-top: 0 !important;
+  }
+}
 
 /*# sourceMappingURL=style-restaurants.css.map */

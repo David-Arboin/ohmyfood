@@ -61,7 +61,7 @@
     color: black;
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 /*Page d'un restaurant*/
 .underline_h1
@@ -128,7 +128,7 @@
     margin-right: 0;
     transition: 0.3s ease-in;
 }
-.element__menu:hover > .price_Et_Validate > .validate > .fa-check
+.sections__menu:hover > .element__menu > .background__element_menu > .validate > .fa-check
 {
     transform: rotate(360deg);
     animation-delay: 0.3s;
@@ -220,10 +220,6 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-}
-.fa-heart
-{
-
 }
 .fa-heart:hover
 {
