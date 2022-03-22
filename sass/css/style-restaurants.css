@@ -366,7 +366,7 @@ mark {
   margin-left: 3.636%;
   display: flex;
   flex-direction: column;
-  aspect-ratio: 51/48;
+  aspect-ratio: 51/44;
 }
 
 @keyframes taadaa {
@@ -397,6 +397,10 @@ mark {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation: taadaa 1s;
+}
+
+.margin__bottom_third_starter {
+  margin-bottom: 10%;
 }
 
 .background__element_menu {
@@ -484,6 +488,21 @@ mark {
   font-size: 4vw;
   font-weight: bolder;
   color: black;
+}
+
+.name__flat_le_delice_des_sens {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+}
+
+.element__menu:hover > .background__element_menu > .informations__and_price > .name__flat_le_delice_des_sens {
+  line-height: 90%;
+}
+
+.element__menu:hover > .background__element_menu > .informations__and_price > .subtitle__menu_and_Price > .subname__flat_le_delice_des_sens,
+.element__menu:hover > .background__element_menu > .informations__and_price > .subtitle__menu_and_Price > .price {
+  margin-top: 2%;
 }
 
 .price {
@@ -730,7 +749,7 @@ mark {
 
   .title__menu {
     margin-top: 0 !important;
-    width: 35%;
+    width: 50%;
     font-size: 2vw;
   }
 
