@@ -1,11 +1,3 @@
-Fonts : Shrikhand et Roboto
-
-Utilisation de sass :
-1 fichier main.scss mène aux fichiers de styles séparés :
-_variables.scss
-_extensions.scss
-
-
 Description générale du projet :
 # ohmyfood
 Ohmyfood est une startup qui propose de réserver/composer son menu avant d'arriver dans un restauarant.
@@ -42,6 +34,10 @@ L'utilisation est expliquée en trois étapes au début de la page d'accueil.
 
 Liste des technologies utilisées :
 Responsive > unités % et vw et fonction acpect ration pour les boites.
+Utilisation de sass
+Adresse du site : https://david-arboin.github.io/ohmyfood/
+Adresse du repository : https://github.com/David-Arboin/ohmyfood
+Code pour cloner le repository : https://github.com/David-Arboin/ohmyfood.git
 
 Collaboration souhaitée :
 Réalisation du back-end.
