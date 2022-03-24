@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./sass/scss/:./sass/css/"
+    "sass": "sass --watch ./sass/scss/:./sass/css/ -w --style compressed",
+    "prefix": "postcss ./sass/css/ --use autoprefixer -d ./sass/css/"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist":"last 4 versions",
   "bugs": {
     "url": "https://github.com/David-Arboin/ohmyfood/issues"
   },
