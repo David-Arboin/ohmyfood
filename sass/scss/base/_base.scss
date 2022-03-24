@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Shrikhand';
-    src: url('../../../fonts/Shrikhand-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../../../fonts/roboto/Roboto-Regular.ttf') format('truetype');
-}
 body
 {
     margin: 0;
@@ -15,11 +6,26 @@ a
 {
     text-decoration: none;
 }
-h1, h2, h3, h4, h5
+.title__paris,
+.title__reservez_le_menu,
+.subtitle__decouvrez_les_restaurants,
+.button,
+.title__functioning,
+.number,
+.subtitle__fonctioning,
+.title__restaurants,
+.name__restaurant,
+.subname__restaurant,
+.subtitle__footer,
+.title__section,
+.name__flat,
+.subname__flat,
+.price
 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
-.title__footer
+.title__footer,
+.a__la_francaise
 {
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand', cursive;
 }
