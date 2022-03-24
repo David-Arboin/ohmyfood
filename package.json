@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/David-Arboin/ohmyfood/issues"
   },
-  "homepage": "https://github.com/David-Arboin/ohmyfood#readme"
+  "homepage": "https://github.com/David-Arboin/ohmyfood#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss-loader": "^6.2.1"
+  }
 }

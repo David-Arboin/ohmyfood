@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5 {
   font-family: "Roboto";
 }
 
+.title__footer {
+  font-family: "Shrikhand";
+}
+
 /*3-component*/
 /*blocs BEM plus indépendants (boutons)*/
 .button {
