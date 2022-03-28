@@ -14,7 +14,8 @@ A terme, le coeur devra être clicable pour s'abonner à un restaurant.
 
 Exigences concernant l’environnement de développement en vue de son intégration :
 Charte des couleurs :
-''' _variables.scss
+ _variables.scss
+'''
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
