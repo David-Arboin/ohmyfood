@@ -1,4 +1,8 @@
 @media (min-width: 1024px) {
+        body, html
+    {
+        height: 100%;
+    }
     header, header img
     {
         height: 80px;
@@ -113,6 +117,7 @@
     {
         flex-direction: column;
         padding-bottom: 2%;
+        height: 100%;
     }
     .section__restaurants
     {
@@ -160,6 +165,9 @@
     {
         padding-top: 1% !important;
         aspect-ratio: 20.5/1.5 !important;
+        position: fixed;
+        left: 0;
+        bottom: 0;
     }
     .option__footer
     {
